@@ -8,15 +8,6 @@
     UIWebView *webView;
 }
 
-- (CDVPlugin*)initWithWebView:(UIWebView*)theWebView {
-    self = [super initWithWebView:theWebView];
-    if (self) {
-        initialized = NO;
-        webView = theWebView;
-    }
-    return self;
-}
-
 
 /**
  * Just a helper function to determine why scrollsToTop not working
